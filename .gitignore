@@ -1,0 +1,28 @@
+.idea
+
+# Secrets / env (ne jamais committer)
+*.env
+.env
+.env.*
+*secret*
+*credentials*
+*.pem
+*.key
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/bin/
+/dist/
+vendor/
+
+# OS / éditeurs
+.DS_Store
+*.swp
+*~
+.vscode/
